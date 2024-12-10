@@ -1,0 +1,74 @@
+what's CSS?
+styling language used for presentation 
+
+Syntax:  selector {
+    property1: value;
+    property2: value;
+
+}
+
+selectors: 
+element,  element{
+    property: value;
+}
+Class:   .class-name {
+     property: value;
+}
+
+ID:  #id{
+     property: value;
+}
+
+selectors combination: 
+.selector1.selector2 {
+    property1: value;
+    property2: value;
+}
+
+.ancestor .child{
+    {
+    property1: value;
+    property2: value;
+}
+}
+
+.big, .large{
+     property: value;
+} avoid duplication
+
+
+* {
+     property: value;
+} everything selector apply to the entire web page
+
+
+How to load CSS
+1.inline: <h1 style = "color: blue">Title </h1>
+2.style element
+<head>
+<style>
+.blue{
+    color: blue
+}
+</style>
+
+</head>
+
+3. External CSS(best practice)
+<head>
+<link rel = "stylesheet: href="style.css"/> 
+</head>
+
+Specificity Calculation: (Inline > ID > Class > Element):
+When two rules apply that have equal specificity, the one that comes last in the CSS is the one that will be used
+ h1{
+    color: blue;
+}
+h1{
+    color: red;
+}
+
+the color will be red
+!important override third party libary
+
+inheritance

@@ -1,0 +1,67 @@
+body,
+html {
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background: #d1d9d6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+    padding: 0 5em;
+    height: 400px;
+    width: 400px;
+
+}
+
+.card__img {
+    display: block;
+    height: 100px;
+    width: 100%;
+    background: rosybrown;
+}
+
+.card__content {
+    padding: 1.5em;
+    background: white;
+}
+
+.card__list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.card__item {
+    padding: 0.3em 0.5em;
+    margin-right: 0.5em;
+    background: #d1d9d6;
+    border-radius: 0.3em;
+    font-size: 0.85em;
+
+}
+
+.card__item--active {
+    background: #d1d9d6;
+    font-weight: bold;
+}
+
+.card__link{
+    background:green;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5 1em;
+    border-radius: 0.5em;
+    display: inline-flexbox;
+    margin-top: 0.5em;
+
+}
+.card__link:hover{
+background: purple;
+}

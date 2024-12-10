@@ -1,0 +1,49 @@
+HTML? 
+Hyper Text Markup Language for creating webpages /docs , building
+blocks of Web.  display or format a webpage 
+index.html -> root/ home 
+
+tag syntax <tagname>content</tagname>
+<br/> self closing tag
+
+page structure: (HTML)
+<html>
+<head>
+<title>Page title</title>
+links to .css files and javascript files and metadata
+</head>
+
+<body>
+actual content
+</body>
+</html>
+
+inline elements:
+ do not start a new line
+ take only the necessary width
+inlinelevel: <span>, <img>, <a>
+
+block element:
+start on new line
+Take full width available
+block level: <div> <h1>-> <h6>, <p>, <form>
+
+emphasized: <strong>, <em>
+
+link: <a href="http://google.com" target="_blank"> open a new Page
+
+list : ordered list <ol> and unordered list <ul>
+
+table:
+<table>
+<thead> Groups the header content of a table
+<tr> (Table Row):
+Defines a single row within the table.
+<th> (Table Header):
+Creates a header cell, typically bold and centered by default.
+<tbody>:
+Contains the main body of the table (the data).
+<td> (Table Data):
+Defines a single cell in a table row.
+<tfoot>:
+Groups the footer content of a table (often used for summaries).

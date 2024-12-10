@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    margin-top: 100px;
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    background: whitesmoke;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+}
+h2{
+    color:rgb(0, 0, 0, 0.4); 
+    font-size: 30px;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.term {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.checkbox {
+    margin-right: 8px;
+    width: 10px;
+    height: 10px;
+    margin-left: 40px;
+}
+
+.terms{
+    color: grey;
+    font-size: 15px;
+}
+.register-btn {
+    margin-top: 50px;
+    height: 50px;
+    width: 80%;
+    background: rgba(42, 188, 16, 0.7);
+    border-radius: 6px;
+    box-shadow: inset;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.terms-use, .privacy{
+    color: rgb(39, 227, 70);
+}
+
+.p1{
+    color: white;
+    font-size: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
