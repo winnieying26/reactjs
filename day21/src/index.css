@@ -1,0 +1,19 @@
+#root{
+  background-color: rgb(25, 125, 187);
+  display: flex;
+  justify-content: center;
+}
+
+.todos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 600px;
+  border: 1px solid wheat;
+  background-color: white;
+  margin:auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
